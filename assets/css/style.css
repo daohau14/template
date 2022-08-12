@@ -451,8 +451,6 @@ html{
     justify-content: space-between;
 }
 
-.product-item{
-}
 .product-img{
     position: relative;
 }
@@ -711,11 +709,6 @@ html{
     width: 360px;;
     
 }
-.nav-left{
-}
-.nav-right{
-    /* padding-right: 34px; */
-}
 .nav-left li,
 .nav-right li{
     list-style: none; 
@@ -785,9 +778,6 @@ html{
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-
-}
-.footer__footer-bot-copy-right{
 
 }
 .footer__footer-bot-copy-right i{
