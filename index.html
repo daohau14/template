@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRANCO</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2ca226c368.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Pacifico&display=swap');
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <!-- Header -->
+        <header class="header">
+            <!-- Top menu -->
+            <div class="header__top-bar">
+                <div class="header__top-bar-left">
+                    <i class="fa-regular fa-bookmark"></i><span> Welcome to Franco - an e-Commerce PSD Template </i></p>
+                </div>
+                <div class="header__top-bar-right">
+                    <div class="header__shop-setting">
+                        <a href=""><i class="fa-solid fa-gear"></i><span> Shop Setting</span> </i></a> 
+                    </div>
+                    <div class="header__login">
+                        <i class="fa-solid fa-lock"></i><span> Member Login</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu -->
+            <div class="header__menu-wrap">
+                <img src="/assets/img/logo.jpg" alt="logo" class="header__menu-wrap-logo">
+                
+                <div class="header_menu-item">
+                    <ul>
+                        <li><a class="home-color" href="">Home</a></li>
+                        <li><a href="">Women</a></li>
+                        <li><a href="">Men</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Collections</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <div class="header__search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                
+
+                <div class="header__menu-button-wrap">
+                    <div class="header__heart">
+                        <i class="fa-regular fa-heart header"></i>
+                    </div>
+                    <div class="header__menu-button-wrap-cart-shopping">
+                        <div class="header__cart-wrap">
+                            <i class="fas fa-cart-shopping aa"></i>
+                            <spam class="header__cart-count">3</spam>
+                            <!-- No cart: header_cart-list--no-cart -->
+                            <div class="header_cart-list">
+                                <img src="./assets/img/no-cart.jpg" alt="" class="header__no-cart-img">
+                                <span class="header_cart-list-no-cart-notice">
+                                    Chưa có sản phẩm!
+                                </span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <div class="header__add-cart">
+                                    <form action="">
+                                        <table>
+                                            <thead>
+                                                <tr class="head">
+                                                    <th>Sản Phẩm</th>
+                                                    <th>Tên sản phẩm</th>
+                                                    <th>Giá</th>
+                                                    <th>Số lượng</th>
+                                                    <th>Chọn</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="item">
+                                                <!-- <tr>
+                                                    <td><img src="./assets/img/ads2.jpg" alt="cart-ads1"></td>
+                                                    <td> <h3 class="heading">Supendisse id volutpat</h3></td>
+                                                    <td><p>$<span class="price"> 84.00</span></p></td>
+                                                    <td><input type="number" value="1" min="1"></td>
+                                                    <td>Xoá</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="./assets/img/ads2.jpg" alt="cart-ads1"></td>
+                                                    <td> <h3 class="heading">Supendisse id volutpat</h3></td>
+                                                    <td><p>$<span class="price"> 84.00</span></p></td>
+                                                    <td><input type="number" value="1" min="1"></td>
+                                                    <td>Xoá</td>
+                                                </tr> -->
+                                            </tbody>
+                                        </table>
+                                    </form>
+                                    <div class="price-total">
+                                        <p>Tổng tiền: $ <span> 0 </span></p>
+                                    </div>
+                                </div>
+                                <!-- <ul class="header__cart-list-item">
+                                     cart-item
+                                    <li class="header__cart-item"> -->
+                                        <!-- <img src="./assets/img/ads1.jpg" alt="Sản phẩm" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Supendisse id volutpat</h5>
+                                               <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">$84.00</span>
+                                                    <span class="header__cart-item-multyply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Size: L</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/ads2.jpg" alt="Sản phẩm" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Supendisse id volutpat</h5>
+                                               <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">$84.00</span>
+                                                    <span class="header__cart-item-multyply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Size: L</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/ads3.jpg" alt="Sản phẩm" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Supendisse id volutpat</h5>
+                                               <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">$84.00</span>
+                                                    <span class="header__cart-item-multyply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Size: L</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul> -->
+                                
+                                <button class="header__cart-btn">Xem giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>  
+            </div>
+        </header>
+        <!-- banner -->
+        <section class="banner">
+                <div class="banner__section-left">
+                    <img src="./assets/img/banner1.jpg" alt="banner" class="banner-img">
+                    <button class="banner-section__btn banner_section-left-btn-shop">Shop Now</button>
+                    <div class="banner__section-left-text">
+                        <h3>Two High-end Materials</h3>
+                    </div>                   
+                </div>
+                <div class="banner__section-right">
+                    <div class="banner__section-right-image-item-top">
+                        <img src="./assets/img/banner2.jpg" alt="banner" class="banner-img">
+                        <div class="banner__section-right-image-item-top-text">
+                            <h4>Small thing</h4>
+                            <h3>make Diffirent</h3>
+                        </div>
+                    </div>
+                    <div class="banner__section-right-image-item-bot">
+                        <img src="./assets/img/banner3.jpg" alt="banner" class="banner-img ">
+                        <button class="banner-section__btn banner__section-right-image-item-bot-btn-shop">Shop Now</button>
+                        <div class="banner__section-right-image-item-bot-text">
+                            <h4>folio</h4>
+                            <h3>Backpack</h3>
+                        </div>
+                    </div>
+                </div>
+        </section>    
+        <!-- product-category -->
+        <section class="product-category">
+            <div class="product-category__content-box">
+                <p class="product-category__content-box-title">franco</p>
+                <br>
+                <p class="product-category__content-box-sub-title">featured items</p>
+                <div class="product-category__content-box-underlined"></div>
+            </div>
+
+            <div class="product-category__row-1">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="./assets/img/ads1.jpg" alt="Supendisse id volutpat" class="ads-img">
+                        <button class="product-img__btn-add">add to cart</button>
+                        <h3 class="heading">Supendisse id volutpat</h3>
+                        <div class="star">
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star"></span>
+                        </div>
+                        <p><del>$99.00</del> $<span class="price">84.00</span> </p>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="./assets/img/ads2.jpg" alt="Lorem ipsum dolor" class="ads-img">
+                        <button class="product-img__btn-add">add to cart</button>
+
+                        <h3 class="heading">Lorem ipsum dolor</h3>
+                        <div class="star">
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star"></span>
+                        </div>
+                        <p><del>$99.00</del> $<span class="price">84.00</span> </p>
+                    </div>
+
+                    </div>
+                    <div class="product-item">
+                        <div class="product-img">
+
+                            <img src="./assets/img/ads3.jpg" alt="Proin sed nulla mi" class="ads-img">
+                            <button class="product-img__btn-add">add to cart</button>
+
+                            <h3 class="heading">proin sed nulla mi</h3>
+                            <div class="star">
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star"></span>
+                        </div>
+                        <p> $<span class="price">84.00</span> </p>
+                    </div>
+        
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="./assets/img/ads4.jpg" alt="Aenean placerat" class="ads-img">
+                        <button class="product-img__btn-add">add to cart</button>
+
+                        <h3 class="heading">Aenean placera</h3>
+                        <div class="star">
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star checked"></span>
+                            <span class="fa-regular fa-star"></span>
+                        </div>
+                        <p><del>$99.00</del> $<span class="price">84.00</span> </p>
+                    </div>
+        
+                </div>
+        </div>
+
+        <div class="product-category__row-2">
+            <div class="product-item">
+                <div class="product-img">
+
+                    <img src="./assets/img/ads5.jpg" alt="Supendisse id volutpat" class="ads-img">
+                    <button class="product-img__btn-add">add to cart</button>
+
+                    <h3 class="heading">Supendisse id volutpat</h3>
+                    <div class="star">
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star"></span>
+                    </div>
+                        <p><del>$99.00</del> $<span class="price">84.00</span> </p>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-img">
+
+                    <img src="./assets/img/ads6.jpg" alt="Lorem ipsum dolor" class="ads-img">
+                    <button class="product-img__btn-add">add to cart</button>
+
+                    <h3 class="heading">Lorem ipsum dolor</h3>
+                    <div class="star">
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star"></span>
+                    </div>
+                    <p><del>$99.00</del> $<span class="price">84.00</span> </p>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-img">
+                    <img src="./assets/img/ads7.jpg" alt="Proin sed nulla mi" class="ads-img">
+                    <button class="product-img__btn-add">add to cart</button>
+
+                    <h3 class="heading">proin sed nulla mi</h3>
+                    <div class="star">
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star"></span>
+                    </div>
+                        <p>$<span class="price"> 84.00</span> </p>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-img">
+                    <img src="./assets/img/ads8.jpg" alt="Aenean placerat" class="ads-img">
+                    <button class="product-img__btn-add">add to cart</button>
+
+                    <h3 class="heading">Aenean placera</h3>
+                    <div class="star">
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star checked"></span>
+                        <span class="fa-regular fa-star"></span>
+                    </div>
+                        <p><del>$99.00</del> $<span class="price">84.99</span> </p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- slider -->
+        <section class="slider">
+            <div class="slider__content-slider">
+                <p class="slider__content-slider-title">Lastest</p>
+                <br>
+                <p class="slider__content-slider-sub-title">news & events</p>
+                <div class="slider__content-slider-underlined"></div>
+              </div>
+            
+            <div class="slider__post-list">
+                <div class="slider__post-list__post-items">
+                    <a href="#" aria-label="" ><img src="./assets/img/post1.jpg" alt="post1" class="post-img"></a>
+                    <div class="date">
+                        <div class="border-date">
+                            <p>Jan 23</p>
+                        </div>
+                    </div>
+                    <div class="post-contents">
+                        <a href="#" aria-label=""><Span>In commodo dolor vintae</Span> </a> 
+                        <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel.
+                        Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+                    </div>
+                    <div class="post-emoji">
+                        <i class="fa-regular fa-comment"></i>
+                        <p>12 </p>
+                        <i class="fa-regular fa-heart slide"></i>
+                        <p>6</p>
+                    </div>
+                </div>
+
+                <div class="slider__post-list__post-items">
+                    <a href="#" aria-label=""><img src="./assets/img/post2.jpg" alt="post2" class="post-img"></a>
+                    <div class="date">
+                        <div class="border-date">
+                            <p>Jan 23</p>
+                        </div>   
+                    </div>
+                    <div class="post-contents">
+                        <a href="#" aria-label=""><Span>Vivamus non dignissim elit</Span> </a> 
+                        <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
+                        Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+                    </div>
+                        <div class="post-emoji">
+                            <i class="fa-regular fa-comment"></i>
+                            <p>12</p>
+                            <i class="fa-regular fa-heart slide"></i>
+                            <p>6</p>
+                        </div>
+                </div>
+                <div class="slider__post-list__post-items">
+                    <a href="#" aria-label=""><img src="./assets/img/post3.jpg" alt="post3" class="post-img"></a>
+                    <div class="date">
+                        <div class="border-date">
+                            <p>Jan 23</p>
+                        </div>
+                    </div>
+                    <div class="post-contents">
+                        <a href="#" aria-label=""><Span>Ut lacinia erat ut diam volutpat</Span> </a> 
+                        <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
+                            Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+                    </div>
+                    <div class="post-emoji">
+                        <i class="fa-regular fa-comment"></i>
+                        <p>12</p>
+                        <i class="fa-regular fa-heart slide"></i>
+                        <p>6</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider__slider-change">
+                <!-- <div style="text-align:center"> -->
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+               <!-- </div> -->
+            </div>
+        </section>
+       <!-- footer -->
+        <footer class="footer">
+            <div class="footer__footer-top">
+                <div class="footer-top footer__footer-top-about">
+                    <div class="footer__footer-top-about-head">
+                        <span>About Franco</span>
+                    </div>
+                    <div class="footer__footer-top-about-content">
+                        <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. 
+                            Aenean hendrerit, elit a lacinia suscipit, orci mauris vulputate mi, 
+                            eu interdum nunc diam at ipsum.</p>
+                    </div>
+                    <div class="footer__footer-top-about-social">
+                        <a href="https://twitter.com/" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/" aria-label="Linkdin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.behance.net/"aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://dribbble.com/" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-top footer__footer-top-nav">
+                    <div class="footer__footer-top-nav-head">
+                        <span>Navigator</span>
+                    </div>
+                    <div class="footer__footer-top-nav-links">
+                        <ul class="nav-left">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Our Blog</a></li>
+                            <li><a href="">Women</a></li>
+                            <li><a href="">Men</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">Featured Brands</a></li>
+                            <li><a href="">Gift Vouchers</a></li>
+                            <li><a href="">Affiliates</a></li>
+                            <li><a href="">Specials Gift</a></li>
+                            <li><a href="">Term & Conditions</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer-top footer__footer-top-shop">
+                    <div class="footer__footer-top-shop-head">
+                        <span>Shop Location</span>
+                    </div>
+                    <ul class="footer__footer-top-shop-content">
+                        <li><a href=""><i class="fa-regular fa-map"></i> 500 Hennesay Road</a></li>
+                        <li><a href="">Causeway Bay, HongKong</a></li>
+                        <li><a href=""><i class="fa-solid fa-phone"></i> +1 234 567 89</a></li>
+                        <li><a href=""><i class="fa-regular fa-envelope"></i> contact@yourdomain.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__footer-bot">
+                <div class="footer__footer-bot-items">
+                    <div class="footer__footer-bot-copy-right">
+                        <i class="fa-regular fa-copyright"><span>Copyright 2015 & Made with</span><i class="fa-solid fa-heart hea"></i><span> by
+                    </span><a href="https://www.arrowhitech.com/"> ArrowHiteach</a></i>
+                    </div>
+                    <div class="footer__footer-card-payment">
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-discover"></i>
+                        <i class="fa-brands fa-cc-amex"></i>
+                    </div>
+                </div>
+            </div>   
+        </footer>
+    </div>
+    <!-- modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+                <!-- register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng kí</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__social--FB btn btn--size-s btn--with-icons">
+                        <i class="auth-form__social-icons fa-brands fa-square-facebook"></i>
+                        <span class="auth-form__social-text">Kết nối với Facebook</span> 
+                    </a>
+
+                    <a href="" class="auth-form__social--GG btn btn--size-s btn--with-icons">
+                        <i class="auth-form__social-icons fa-brands fa-google"></i>
+                        <span class="auth-form__social-text">Kết nối với Google</span>
+                        
+                    </a>
+                </div>
+                
+            </div> -->
+
+                 <!-- login form -->
+                 <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-link-forgot">Quên mật khẩu</a>
+                                <div class="auth-form__help-link-bf"></div>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__control-back js-close">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__social--FB btn btn--size-s btn--with-icons">
+                            <i class="auth-form__social-icons fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__social-text">Kết nối với Facebook</span> 
+                        </a>
+    
+                        <a href="" class="auth-form__social--GG btn btn--size-s btn--with-icons">
+                            <i class="auth-form__social-icons fa-brands fa-google"></i>
+                            <span class="auth-form__social-text">Kết nối với Google</span>
+                            
+                        </a>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+    <script src="add_to_cart.js"></script>
+</body>
+</html>
