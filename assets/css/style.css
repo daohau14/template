@@ -32,6 +32,7 @@ html{
 
 .header__top-bar-left {
     font-size: 14px;
+    cursor: pointer;
     
 }
 .header__top-bar-right {
@@ -55,12 +56,13 @@ html{
     justify-content: space-between;
     height: 79px;
     font-size: 14px;
-    padding: 0 16px 0 30px;
+    padding: 0 20px 0 30px;
     border-bottom: 1px solid #ccc;
 }
 .header__menu-wrap-logo{
     width: 200px;
     height: 38px;
+    cursor: pointer;
 
 }
 .header_menu-item {
@@ -101,13 +103,7 @@ html{
 }
 .header__menu-button-wrap{
     display: flex;
-}
-.header__menu-button-wrap i{
-    font-size: 30px;
-}
-
-.header__menu-button-wrap .aa{
-    font-size: 30px;
+    align-items: center;
 }
 
 
@@ -118,14 +114,9 @@ html{
     cursor: pointer;
     font-weight: 400;
 }
-.fas.fa-cart-shopping {
-    color: #000;
-    font-size: 26px;
-    
-}
 .header__menu-button-wrap-cart-shopping {
     text-align: center;
-    margin-left: 16px;
+    margin-left: 20px;
 }
     
 .header__cart-wrap {
@@ -135,12 +126,17 @@ html{
     cursor: pointer;
     
 }
+.header__cart-wrap img {
+    font-size: 30px;
+}
+
 
 .header__menu-button-wrap-cart-shopping:hover .header_cart-list{
     display: block;
 }
 
 .header__cart-count{
+    display: none;
     position: absolute;
     padding: 2px 8px;
     background-color: #DD1E1E;
@@ -149,7 +145,7 @@ html{
     line-height: 1rem;
     border-radius: 14px;
     border: 2px solid #eee;
-    top: -6px;
+    top: 0px;
     right: 0px;
 }
 
@@ -467,9 +463,8 @@ html{
     border: none;
     font-weight: bold;
     cursor: pointer;
-    letter-spacing: -1px;
-    bottom: 90px;
-    left: 4px;
+    bottom: 89px;
+    left: 5px;
 }
 .ads-img {
     display: block;
@@ -482,12 +477,14 @@ html{
     font-weight: bold;
     /* padding: 13px 0; */
     margin: 15px 0 10px 0;
+    cursor: pointer;
 }
 
 .star{
     font-size: 8px;
     padding-bottom: 10px;
     letter-spacing: -2.6px;
+    cursor: pointer;
 }
 /* .star {
     font-size: 12px;
@@ -613,11 +610,13 @@ html{
     padding: 18px;
 }
 .post-emoji i{
-    padding-right: 10px;
+    padding-right: 6px;
+    cursor: pointer;
 }
 .post-emoji p{
-    margin-right: 30px;
+    margin-right: 34px;
     color: #e2e2e2;
+
 }
 .fa-comment{
     color: #e2e2e2;
