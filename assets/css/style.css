@@ -84,6 +84,7 @@ html{
     max-width: 100%;
     background-color: #fff;
     transform: translateX(-100%);
+    z-index: 0;
 }
 .nav__mobile-close {
     float: right;
@@ -416,9 +417,6 @@ html{
     letter-spacing: -1px;
 }
 
-.banner-img__top {
-    position: relative;
-}
 
 .banner__section-right-image-item-top{
     position: relative;
@@ -465,45 +463,52 @@ html{
 
 /* product-category */
 .product-category {
-    margin: 75px auto;
-    width: 1140px;
+    margin: 75px auto 30px;
+    width: 100%;
+    max-width: 1140px;
 }
 
 /* product-contents */
-.product-category__content-box {
+.product-content {
     text-transform: uppercase;
     margin-bottom: 50px;
     letter-spacing: 4px;
 }
 
-.product-category__content-box-title {
+.content-box__title {
     color: #8262b5;
     font-weight: bold;
     font-size: 12px;
+    margin-bottom: 11px;
     letter-spacing: 5.2px;
 }
-.product-category__content-box-sub-title{
+.content-box__sub-title{
     font-weight: bold;
     font-size: 24px;
-    margin-top: -10px;
     letter-spacing: 2.2px;
 }
-.product-category__content-box-underlined{
+.underlined {
     width: 50px;
     height: 1px;
     background-color: #8262b5;
-    margin-top: 21px;
+}
+.content-box.underlined{
+    margin-top: 23px;
 }
 /* end-product-content */
 
-.product-category__row-1{
-    display: flex;
-    padding-bottom: 48px;
-    justify-content: space-between;
+.product-category__list{
+    margin-left: -30px;
 }
-.product-category__row-2 {
+.product-colums{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-item{
+    margin-bottom: 45px;
+    margin-left: 30px;
+    width: calc(25% - 30px);
 }
 
 .product-img{
@@ -523,16 +528,16 @@ html{
     bottom: 89.4px;
     left: 5.1px;
 }
-.ads-img {
-    display: block;
-}
 .product-img__btn-add:hover{
     color: #8262b5;
 }
-.product-img h3{
+.ads-img {
+    width: 100%;
+    display: block;
+}
+.heading{
     font-size: 14px;
     font-weight: bold;
-    /* padding: 13px 0; */
     margin: 15px 0 10px 0;
     cursor: pointer;
 }
@@ -562,7 +567,6 @@ html{
 .slider{
     background-image: url(../img/background.jpg);
     width: 100%;
-    /* padding-top: 10px; */
 }
 .slider__content-slider{
     text-align: center;
@@ -570,22 +574,19 @@ html{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-    line-height: 1;
 }
-.slider__content-slider-title{
+.content-slider__title{
     font-size: 12px;
     letter-spacing: 4px;
     color: #8262b5;
 }
-.slider__content-slider-sub-title{
+.content-slider__sub-title{
+    margin: 8px 0 24px 0;
     font-size: 24px;
 }
 
-.slider__content-slider-underlined{
-    width: 50px;
-    height: 1px;
-    background-color: #8262b5;
-    margin: 25px auto;
+.content-slider.underlined{
+    margin: auto;
 }
 .slider__post-list {
     display: flex;
@@ -594,7 +595,7 @@ html{
     justify-content: space-between; 
 }
 
-.slider__post-list__post-items {
+.slider__post-items {
     width: 360px;
     height: 390px;
     /* margin: 0 15px; */
@@ -640,7 +641,7 @@ html{
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: -1px;
+    letter-spacing: -0.6px;
     color: #444;
 }
 .post-contents a:hover{
@@ -681,7 +682,7 @@ html{
 .slider__slider-change {
     display: block;
     margin-top: -26px;
-    padding-bottom: 69px;
+    padding-bottom: 67px;
     text-align: center;
 }
 .dot {
@@ -730,10 +731,10 @@ html{
     padding: 60px 0 40px 0;
 
 }
-.footer-top.footer__footer-top-about {
+.footer-top__about {
     margin-right: 130px;
 }
-.footer__footer-top-about-head {
+.footer-top__about-head {
     font-size: 16px;
     font-weight: 700;
     padding-bottom: 26px;
@@ -787,7 +788,7 @@ html{
 }
 
 .nav-left {
-    margin-right: 124px;
+    margin-right: 118px;
 }
 .nav-left li,
 .nav-right li{
@@ -932,10 +933,7 @@ html{
 }
 
 .price-total {
-    /* justify-content: end; */
-    /* justify-items: left; */
     text-align: right;
-    /* margin-right: 30px; */
     margin: 30px;
     font-size: 16px;
     font-weight: 600;
@@ -951,6 +949,7 @@ html{
     bottom: 0;
     /* display: flex; */
     display: none;
+    z-index: 1;
     
 }
 .js-modal.open{
@@ -1127,11 +1126,4 @@ html{
 }
 .auth-form__help-link-forgot{
     color: #FF3300;
-}
-/* menu responsive */
-.icon {
-    display: none;
-    padding: 10px;
-    color: #000;
-    cursor: pointer;
 }
