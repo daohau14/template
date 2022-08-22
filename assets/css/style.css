@@ -172,12 +172,9 @@ html{
 }
 
 
-.fa-heart.header {
-    color: #000;
-    margin-top: 8px;
-    font-size: 30px;
+.header__heart{
     cursor: pointer;
-    font-weight: 400;
+
 }
 .header__menu-button-wrap-cart-shopping {
     text-align: center;
@@ -399,18 +396,19 @@ html{
 .banner-btn {
     position: absolute;
     height: 40px;
-    width: 107px;
+    width: 106px;
     background-color: #8262b5;
     color: #fff;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
+    font-family: Montserrat;
 
 }
 
 .banner__left-btn{
     bottom: 27.3%;
-    right: 12.5%;
+    right: 94px;
 }
 
 .banner__left-text {
@@ -441,7 +439,7 @@ html{
     color: #616161;
 }
 .banner__right-top-text h3 {
-    letter-spacing: -0.6; 
+    letter-spacing: -0.6px; 
 }
 .banner__right-bot {
     position: relative;
@@ -449,8 +447,9 @@ html{
 }
 
 .banner__right-btn {
-    bottom: 34%;
+    bottom: 33.6%;
     left: 42px;
+    padding-left: 6px;
 }
 .banner-section__btn:hover {
     opacity: 0.8;
@@ -468,7 +467,7 @@ html{
     color: #616161;
 }
 .banner__right-bot-text h3 {
-    letter-spacing: -0.3px;
+    letter-spacing: -0.4px;
 }
 /* banner end */
 
