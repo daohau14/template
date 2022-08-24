@@ -519,6 +519,9 @@ html{
     font-family: Montserrat;
 
 }
+.banner-btn:hover {
+    opacity: 0.8;
+}
 
 .banner__left-btn{
     bottom: 27.3%;
