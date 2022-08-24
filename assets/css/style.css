@@ -655,6 +655,7 @@ html{
     bottom: 89px;
     left: 5px;
     font-family: Montserrat;
+    font-weight: 400;
 }
 .product-img__btn-add:hover{
     color: #8262b5;
@@ -674,7 +675,7 @@ html{
 .star{
     font-size: 12px;
     padding-bottom: 6px;
-    letter-spacing: -1.4px;
+    letter-spacing: -1.6px;
     cursor: pointer;
     color: #d1d1d1;
 }
