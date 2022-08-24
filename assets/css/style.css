@@ -651,10 +651,10 @@ html{
     color: #424242;
     background-color: #fff;
     border: none;
-    font-weight: bold;
     cursor: pointer;
     bottom: 89px;
     left: 5px;
+    font-family: Montserrat;
 }
 .product-img__btn-add:hover{
     color: #8262b5;
@@ -674,7 +674,7 @@ html{
 .star{
     font-size: 8px;
     padding-bottom: 6px;
-    letter-spacing: -2px;
+    letter-spacing: -1.4px;
     cursor: pointer;
     color: #d1d1d1;
 }
