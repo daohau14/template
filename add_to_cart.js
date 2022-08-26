@@ -21,10 +21,10 @@ function  addCart(productName, productImg, productPrice){
     var cartItem = document.querySelectorAll(".item tr")
     for (var i = 0; i < cartItem.length; i++){
         var productItem = document.querySelectorAll(".heading")
-        if(productItem[i].innerHTML == productName ){
-            alert('Sản phẩm bạn chọn đã có trong giỏ hàng!!!')
-            return
-        }
+        // if(productItem[i].innerHTML == productName ){
+        //     alert('Sản phẩm bạn chọn đã có trong giỏ hàng!!!')
+        //     return
+        // }
     }
     var trcontent = '<td><img src="'+productImg+'" alt="Supendisse id volutpat" class="cart-ads1"></td> <td> <h3 class="heading">'+productName+'</h3></td> <td><p>$<span class="price">'+productPrice+'</span></p></td> <td><input type="number" aria-label="" value="1" min="1"></td> <td><span class= "btn-del-item-cart">Xoá</span></td>'
     addItem.innerHTML = trcontent;
