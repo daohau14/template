@@ -39,6 +39,10 @@
         margin: 0 15px;
         
     }
+
+    .post-emoji {
+        padding: 8px 20px;
+    }
     .footer__footer-top {
         width: calc(100% - 60px);
         justify-content: space-between;
@@ -357,6 +361,10 @@
         display: block;
         width: auto;
     }
+
+    .slider__post-list {
+        width: calc(100% - 16px);
+    }
     .banner__section-left {
         padding-bottom: 20px;
     }
@@ -424,6 +432,9 @@
     .banner__right-btn {
         bottom: 60px;
         left: 34px;
+    }
+    .post-emoji {
+        padding: 8px 20px;
     }
     .banner__section-left {
         padding-bottom: 20px;
