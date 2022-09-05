@@ -30,7 +30,7 @@
                         <a href=""><i class="fa-solid fa-gear"></i><span> Shop Setting</span> </i></a> 
                     </div>
                     <div class="header__login">
-                        <i class="fa-solid fa-lock"></i><span> Member Login</span>
+                        <a href="./login.html"><i class="fa-solid fa-lock"></i><span> Member Login</span></a>
                     </div>
                 </div>
             </div>
@@ -686,44 +686,47 @@
             </div>   
         </footer>
     </div>
-
+    <!-- js slider -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
           slidesPerView: 3,
-          spaceBetween: 25,
+          spaceBetween: 10,
           slidesPerGroup: 3,
-          loop: true,
-          loopFillGroupWithBlank: false,
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
           },
           breakpoints: {
-    // when window width is >= 320px
-                320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                slidesPerGroup: 1,
-                },
-                // when window width is >= 480px
-                480: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-                slidesPerGroup: 1,
-                },
-                // when window width is >= 640px
-                768: {
-                slidesPerView: 2,
-                spaceBetween: 40,
-                slidesPerGroup: 3,
-                },
-                1024: {
-                slidesPerView: 3,
-                spaceBetween: 15,
-                slidesPerGroup: 3,
-                }
-            }
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+              slidesPerGroup: 1,
+            },
+            425: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+              slidesPerGroup: 1,
+            },
+            480: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+              slidesPerGroup: 1,
+            },
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+              slidesPerGroup: 1,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+          },
         });
       </script>
     
@@ -826,7 +829,7 @@
                 </div>
         </div>
     </div>
-    <script src="login.js"></script>
+    <!-- <script src="login.js"></script> -->
     <script src="add_to_cart.js"></script>
 </body>
 </html>

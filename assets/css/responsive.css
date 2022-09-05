@@ -6,13 +6,13 @@
         display: none;
     }
     .header__menu-wrap {
-        padding: 0 20px;
+        padding: 0 5px;
     }
     .nav-bar__btn {
         display: block;
     }
     .banner {
-        width: calc(100% - 60px);
+        width: calc(100% - 30px);
         flex-wrap: nowrap;
     }
     .banner__section-right {
@@ -23,7 +23,7 @@
     }
     
     .product-category{
-       width: calc(100% - 60px);
+       width: calc(100% - 30px);
     }
     .ads-img {
         display: block;
@@ -32,23 +32,18 @@
     .product-item {
         width: calc(27.8% - 60px);
     }
-    .slider__post-list{
+    .slider__post-list {
         width: calc(100% - 30px);
     }
-    .slider__post-items {
-        margin: 0 15px;
-        
-    }
-
-    .post-emoji {
-        padding: 8px 20px;
+    .post-wrap {
+        height: auto;
     }
     .footer__footer-top {
-        width: calc(100% - 60px);
+        width: calc(100% - 30px);
         justify-content: space-between;
     }
     .footer-bot__items {
-        width: calc(100% - 60px);
+        width: calc(100% - 30px);
     }
     .footer-top__about,
     .footer__footer-top-nav
@@ -139,12 +134,6 @@
     .product-category{
         width: calc(100% - 30px);
     }
-    .post-contents {
-        margin-right: 8px;
-    }
-    .post-contents span {
-        font-size: 12px;
-    }
     .footer__footer-top {
         width: calc(100% - 30px);
         flex-wrap: wrap;
@@ -201,10 +190,6 @@
     .header__menu-button-wrap {
         font-size: 12px;
     }
-    .slider__post-list {
-        display: block;
-        width: auto;
-    }
     .banner__left-text {
         font-size: 20px;
         right: 7%;
@@ -220,12 +205,6 @@
     }
     .product-item{
         width: calc(50% - 30px);
-    }
-    .slider__post-items {
-        width: calc(100% - 30px);
-        height: 100%;
-        margin: 30px auto;
-        flex-direction: column;
     }
     .footer-top {
         padding: 30px;
@@ -356,14 +335,9 @@
     .banner__right-bot-text {
         font-size: 18px;
     }
-    .banner,
-    .slider__post-list {
+    .banner{
         display: block;
         width: auto;
-    }
-
-    .slider__post-list {
-        width: calc(100% - 16px);
     }
     .banner__section-left {
         padding-bottom: 20px;
@@ -377,6 +351,10 @@
     }
     .content-box.underlined {
         margin: 30px auto;
+    }
+
+    .slider__post-list {
+        width: calc(100% - 30px);
     }
     .product-content,
     .product-colums {
@@ -433,12 +411,10 @@
         bottom: 60px;
         left: 34px;
     }
-    .post-emoji {
-        padding: 8px 20px;
-    }
     .banner__section-left {
         padding-bottom: 20px;
     }
+    
     .footer__footer-top-nav {
         margin: 0;
     }
