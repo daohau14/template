@@ -45,23 +45,26 @@
                     <label for="nav__mobile-input" class="nav__overlay"></label>
                     
                     <label for="nav__mobile-input" class="nav__mobile">
-                    <label for="nav__mobile-input" class="nav__mobile-close">
-                        <i class="fa-solid fa-xmark"></i>
-                    </label>
 
-                    <div class="nav__mobile-search">
+                    h1
+
+                    <!-- <div class="nav__mobile-search">
                         <input class="input-search" type="text" placeholder="Search...">
                         <div class="mobile-search">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="emty">
+                    <!-- <div class="emty">
                         
-                    </div>
+                    </div> -->
 
-                    <div class="nav__mobile-list">
-                    <ul>
+
+                    <ul class="nav__mobile-list">
+                        <label for="nav__mobile-input" class="nav__mobile-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+
                         <li><a href="" class="nav__mobile-link">Home</a></li>
                         <li><a href="" class="nav__mobile-link">Women</a></li>
                         <li><a href="" class="nav__mobile-link">Men</a></li>
@@ -70,8 +73,8 @@
                         <li><a href="" class="nav__mobile-link">Collections</a></li>
                         <li><a href="" class="nav__mobile-link">Contact</a></li>
                     </ul>
-                    </div>
-                    </div>
+                </div>
+
                 <img src="./assets/img/logo.jpg" alt="logo" class="header__menu-wrap-logo">
                 
                 <div class="header_menu-item">
@@ -115,14 +118,13 @@
                                             <thead>
                                                 <tr class="head">
                                                     <th>Sản Phẩm</th>
-                                                    <th>Tên sản phẩm</th>
                                                     <th>Giá</th>
                                                     <th>Số lượng</th>
                                                     <th>Chọn</th>
                                                 </tr>
                                             </thead>
                                             <tbody class="item">
-                                                <!-- <tr>
+                                                <!-- <tr class="cart-item cart-item-1" data-id="1">
                                                     <td><img src="./assets/img/ads2.jpg" alt="cart-ads1"></td>
                                                     <td> <h3 class="heading">Supendisse id volutpat</h3></td>
                                                     <td><p>$<span class="price"> 84.00</span></p></td>
@@ -250,45 +252,49 @@
 
             <div class="product-category__list">
                 <div class="product-colums">
-                    <div class="product-item">
-                        <div class="product-img">
-                            <img src="./assets/img/product1.jpg" alt="Lorem ipsum dolor" class="ads-img">
-                            <button class="product-img__btn-add">add to cart</button>
-                            <h3 class="heading">Suspendisse id volutpat</h3>
-                            <div class="star">
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star"></span>
-                            </div>
-                            <p><del>$99.00</del> $<span class="price">84.00</span> </p>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <img src="./assets/img/product2.jpg" alt="Lorem ipsum dolor" class="ads-img">
-                            <button class="product-img__btn-add">add to cart</button>
-    
-                            <h3 class="heading">Lorem ipsum dolor</h3>
-                            <div class="star">
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star"></span>
-                            </div>
-                            <p><del>$99.00</del> $<span class="price">84.00</span></p>
-                        </div>
-    
-                    </div>
-                    <div class="product-item">
-                            <div class="product-img">
-    
-                                <img src="./assets/img/product3.jpg" alt="Proin sed nulla mi" class="ads-img">
+                    <div class="product-item" >
+                        <div class="product-img" data-id="1">
+                            <div class="item-1">
+                                <img src="./assets/img/product1.jpg" alt="Lorem ipsum dolor" class="ads-img" id="product1">
                                 <button class="product-img__btn-add">add to cart</button>
+                                <h3 class="heading">Suspendisse id volutpat</h3>
+                                <p><del>$99.00</del> $<span class="price">84.00</span> </p>
+                            </div>
+                            <div class="star">
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item" >
+                        <div class="product-img" data-id="2">
+                            <div class="item-2">
+                                <img src="./assets/img/product2.jpg" alt="Lorem ipsum dolor" class="ads-img" id="product2">
+                                <button class="product-img__btn-add">add to cart</button>
+                                <h3 class="heading">Lorem ipsum dolor</h3>
+                                <p><del>$99.00</del> $<span class="price">84.00</span></p>
+                            </div>
+                            <div class="star">
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star"></span>
+                            </div>
+                        </div>
     
-                                <h3 class="heading">Proin sed nulla mit</h3>
+                    </div>
+                    <div class="product-item" >
+                            <div class="product-img" data-id="3">
+                                <div class="item-3">
+                                    <img src="./assets/img/product3.jpg" alt="Proin sed nulla mi" class="ads-img" id="product3">
+                                    <button class="product-img__btn-add">add to cart</button>
+                                    <h3 class="heading">Proin sed nulla mit</h3>
+                                    <p> $<span class="price">84.00</span> </p>
+                                </div>
                                 <div class="star">
                                     <span class="fa-regular fa-star checked"></span>
                                     <span class="fa-regular fa-star checked"></span>
@@ -296,51 +302,17 @@
                                     <span class="fa-regular fa-star checked"></span>
                                     <span class="fa-regular fa-star"></span>
                             </div>
-                            <p> $<span class="price">84.00</span> </p>
                         </div>
             
                     </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <img src="./assets/img/product4.jpg" alt="Aenean placerat" class="ads-img">
-                            <button class="product-img__btn-add">add to cart</button>
-    
-                            <h3 class="heading">Aenean placerat</h3>
-                            <div class="star">
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star"></span>
-                            </div>
-                            <p><del>$99.00</del> $<span class="price">84.00</span></p>
-                        </div>
-            
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-        
-                            <img src="./assets/img/product5.jpg" alt="Supendisse id volutpat" class="ads-img">
-                            <button class="product-img__btn-add">add to cart</button>
-        
-                            <h3 class="heading">Suspendisse id volutpat</h3>
-                            <div class="star">
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star"></span>
-                            </div>
+                    <div class="product-item" >
+                        <div class="product-img" data-id="4">
+                            <div class="item-4">
+                                <img src="./assets/img/product4.jpg" alt="Aenean placerat" class="ads-img" id="product4">
+                                <button class="product-img__btn-add">add to cart</button>
+                                <h3 class="heading">Aenean plaicerat</h3>
                                 <p><del>$99.00</del> $<span class="price">84.00</span></p>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-        
-                            <img src="./assets/img/product6.jpg" alt="Lorem ipsum dolor" class="ads-img">
-                            <button class="product-img__btn-add">add to cart</button>
-        
-                            <h3 class="heading">Lorem ipsum dolor</h3>
+                            </div>
                             <div class="star">
                                 <span class="fa-regular fa-star checked"></span>
                                 <span class="fa-regular fa-star checked"></span>
@@ -348,15 +320,17 @@
                                 <span class="fa-regular fa-star checked"></span>
                                 <span class="fa-regular fa-star"></span>
                             </div>
-                            <p><del>$99.00</del> $<span class="price">84.00</span></p>
                         </div>
+            
                     </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <img src="./assets/img/product7.jpg" alt="Proin sed nulla mi" class="ads-img">
-                            <button class="product-img__btn-add">add to cart</button>
-        
-                            <h3 class="heading">Proin sed nulla mi</h3>
+                    <div class="product-item" >
+                        <div class="product-img" data-id="5">
+                            <div class="item-5">
+                                <img src="./assets/img/product5.jpg" alt="Supendisse id volutpat" class="ads-img" id="product5">
+                                <button class="product-img__btn-add">add to cart</button>
+                                <h3 class="heading">Suspendisse id volupa</h3>
+                                <p><del>$99.00</del> $<span class="price">84.00</span></p>
+                            </div>
                             <div class="star">
                                 <span class="fa-regular fa-star checked"></span>
                                 <span class="fa-regular fa-star checked"></span>
@@ -364,15 +338,33 @@
                                 <span class="fa-regular fa-star checked"></span>
                                 <span class="fa-regular fa-star"></span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="product-item" >
+                        <div class="product-img" data-id="6">
+                            <div class="item-6">
+                                <img src="./assets/img/product6.jpg" alt="Lorem ipsum dolor" class="ads-img" id="product6">
+                                <button class="product-img__btn-add">add to cart</button>
+                                <h3 class="heading">Lorem iprum dolor</h3>
+                                <p><del>$99.00</del> $<span class="price">84.00</span></p>
+                            </div>
+                            <div class="star">
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item" >
+                        <div class="product-img" data-id="7">
+                            <div class="item-7">
+                                <img src="./assets/img/product7.jpg" alt="Proin sed nulla mi" class="ads-img" id="product7">
+                                <button class="product-img__btn-add">add to cart</button>
+                                <h3 class="heading">Proin sed nulla mi</h3>
                                 <p>$<span class="price">84.00</span></p>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="product-img">
-                            <img src="./assets/img/product8.jpg" alt="Aenean placerat" class="ads-img">
-                            <button class="product-img__btn-add">add to cart</button>
-    
-                            <h3 class="heading">Aenean placerat</h3>
+                            </div>
                             <div class="star">
                                 <span class="fa-regular fa-star checked"></span>
                                 <span class="fa-regular fa-star checked"></span>
@@ -380,7 +372,23 @@
                                 <span class="fa-regular fa-star checked"></span>
                                 <span class="fa-regular fa-star"></span>
                             </div>
-                            <p><del>$99.00</del> $<span class="price">84.00</span></p>
+                        </div>
+                    </div>
+                    <div class="product-item" >
+                        <div class="product-img" data-id="8">
+                            <div class="item-8">
+                                <img src="./assets/img/product8.jpg" alt="Aenean placerat" class="ads-img" id="product8">
+                                <button class="product-img__btn-add">add to cart</button>
+                                <h3 class="heading">Aenean placerat</h3>
+                                <p><del>$99.00</del> $<span class="price">84.00</span></p>
+                            </div>
+                            <div class="star">
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star checked"></span>
+                                <span class="fa-regular fa-star"></span>
+                            </div>
                         </div>
             
                     </div>

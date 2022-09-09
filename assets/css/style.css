@@ -209,6 +209,7 @@ html{
     width: 200px;
     height: 38px;
     cursor: pointer;
+    top: 21px;
 
 }
 .header_menu-item {
@@ -637,7 +638,7 @@ html{
     flex-wrap: wrap;
 }
 .product-item{
-    margin-bottom: 44px;
+    margin-bottom: 66px;
     margin-left: 30px;
     width: calc(25% - 30px);
 }
@@ -655,7 +656,7 @@ html{
     background-color: #fff;
     border: none;
     cursor: pointer;
-    bottom: 89px;
+    bottom: 68px;
     left: 5px;
     font-family: Montserrat;
     font-weight: 400;
@@ -698,6 +699,8 @@ html{
     font-size: 16px;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: -21px;
 }
 /* end product-list */
 
@@ -1071,11 +1074,11 @@ span.swiper-pagination-bullet:hover {
     padding: 12px;
 }
 .head th {
-    padding: 0px 25px;
+    padding: 0px 40px;
 }
 
 .item tr td img {
-    width: 70px;
+    width: 80px;
 
 }
 .item tr td  input {
