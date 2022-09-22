@@ -487,8 +487,6 @@ html{
     justify-content: space-around;
     font-weight: 600;
 }
-.cart-item-container {
-}
 .cart-item {
     display: flex;
     align-items: center;
