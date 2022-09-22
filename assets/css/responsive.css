@@ -368,6 +368,10 @@
     .footer-bot__copy-right {
         left: 12%;
     }
+    .product-img p {
+        left: 0;
+        right: 0;
+    }
     
 }
 @media screen and (max-width: 390px) {
@@ -380,6 +384,12 @@
     }
     .product-item{
         width: calc(100% - 30px);
+    }
+    .slider {
+        height: 600px;
+    }
+    .slider__content-slider {
+        padding-top: 32px;
     }
     .nav-left {
         margin-right: auto;
@@ -419,7 +429,7 @@
         margin: 0;
     }
     .footer-bot__copy-right {
-        left: 1%;
+        left: 3.6%;
     }
     .footer-bot__copy-right i span {
         margin: 0 2px;

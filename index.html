@@ -97,12 +97,10 @@
                         <!-- <i class="fa-regular fa-heart header"></i> -->
                         <img src="./assets/img/heart.png" alt="heart-header">
                     </div>
-                    <div class="header__menu-button-wrap-cart-shopping">
+                    <div class="header__cart-shopping">
                         <div class="header__cart-wrap">
-                            <!-- <i class="fas fa-cart-shopping aa"></i> -->
                             <img src="./assets/img/shopping-cart (1).png" alt="cart">
-                            <spam class="header__cart-count">3</spam>
-                            <!-- No cart: header_cart-list--no-cart -->
+                            <span class="header__cart-count">0</span>
                             <div class="header_cart-list">
                                 <img src="./assets/img/no-cart.jpg" alt="" class="header__no-cart-img">
                                 <span class="header_cart-list-no-cart-notice">
@@ -111,99 +109,22 @@
     
                                 <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
                                 <div class="header__add-cart">
-                                    <form action="">
-                                        <table>
-                                            <thead>
-                                                <tr class="head">
-                                                    <th>Sản Phẩm</th>
-                                                    <th>Giá</th>
-                                                    <th>Số lượng</th>
-                                                    <th>Chọn</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="item">
-                                                <!-- <tr class="cart-item cart-item-1" data-id="1">
-                                                    <td><img src="./assets/img/ads2.jpg" alt="cart-ads1"></td>
-                                                    <td> <h3 class="heading">Supendisse id volutpat</h3></td>
-                                                    <td><p>$<span class="price"> 84.00</span></p></td>
-                                                    <td><input type="number" value="1" min="1"></td>
-                                                    <td>Xoá</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="./assets/img/ads2.jpg" alt="cart-ads1"></td>
-                                                    <td> <h3 class="heading">Supendisse id volutpat</h3></td>
-                                                    <td><p>$<span class="price"> 84.00</span></p></td>
-                                                    <td><input type="number" value="1" min="1"></td>
-                                                    <td>Xoá</td>
-                                                </tr> -->
-                                            </tbody>
-                                        </table>
-                                    </form>
-                                    <div class="price-total">
-                                        <p>Tổng tiền: $ <span> 0 </span></p>
+                                    <div class="cart-header">
+                                        <span class="header-title">Item</span>
+                                        <span class="header-title">Unit price</span>
+                                        <span class="header-title">Units</span>
+                                        <span class="header-title">Remove</span>
                                     </div>
+                                    <div class="cart-item-container">
+                                        <!-- render cart items here -->
+                                    </div>
+                                    <div class="cart-footer">
+                                        <div class="price-total">
+                                            <p>Tổng tiền: $ <span> 0 </span></p>
+                                        </div> 
+                                    </div>
+                                    
                                 </div>
-                                <!-- <ul class="header__cart-list-item">
-                                        cart-item
-                                    <li class="header__cart-item"> -->
-                                        <!-- <img src="./assets/img/ads1.jpg" alt="Sản phẩm" class="header__cart-img">
-                                        <div class="header__cart-item-info">
-                                            <div class="header__cart-item-head">
-                                                <h5 class="header__cart-item-name">Supendisse id volutpat</h5>
-                                                <div class="header__cart-item-price-wrap">
-                                                    <span class="header__cart-item-price">$84.00</span>
-                                                    <span class="header__cart-item-multyply">x</span>
-                                                    <span class="header__cart-item-quantity">2</span>
-                                                </div>
-                                            </div>
-    
-                                            <div class="header__cart-item-body">
-                                                <span class="header__cart-item-description">Size: L</span>
-                                                <span class="header__cart-item-remove">Xoá</span>
-                                            </div>
-    
-                                        </div>
-                                    </li>
-                                    <li class="header__cart-item">
-                                        <img src="./assets/img/ads2.jpg" alt="Sản phẩm" class="header__cart-img">
-                                        <div class="header__cart-item-info">
-                                            <div class="header__cart-item-head">
-                                                <h5 class="header__cart-item-name">Supendisse id volutpat</h5>
-                                                <div class="header__cart-item-price-wrap">
-                                                    <span class="header__cart-item-price">$84.00</span>
-                                                    <span class="header__cart-item-multyply">x</span>
-                                                    <span class="header__cart-item-quantity">2</span>
-                                                </div>
-                                            </div>
-    
-                                            <div class="header__cart-item-body">
-                                                <span class="header__cart-item-description">Size: L</span>
-                                                <span class="header__cart-item-remove">Xoá</span>
-                                            </div>
-    
-                                        </div>
-                                    </li>
-                                    <li class="header__cart-item">
-                                        <img src="./assets/img/ads3.jpg" alt="Sản phẩm" class="header__cart-img">
-                                        <div class="header__cart-item-info">
-                                            <div class="header__cart-item-head">
-                                                <h5 class="header__cart-item-name">Supendisse id volutpat</h5>
-                                                <div class="header__cart-item-price-wrap">
-                                                    <span class="header__cart-item-price">$84.00</span>
-                                                    <span class="header__cart-item-multyply">x</span>
-                                                    <span class="header__cart-item-quantity">2</span>
-                                                </div>
-                                            </div>
-    
-                                            <div class="header__cart-item-body">
-                                                <span class="header__cart-item-description">Size: L</span>
-                                                <span class="header__cart-item-remove">Xoá</span>
-                                            </div>
-    
-                                        </div>
-                                    </li>
-                                </ul> -->
-                                
                                 <button class="header__cart-btn">Xem giỏ hàng</button>
                             </div>
                         </div>
@@ -250,26 +171,10 @@
 
             <div class="product-category__list">
                 <div class="product-colums">
-                    <div class="product-item" >
-                        <div class="product-img" data-id="1">
-                            <div class="item-1">
-                                <img src="./assets/img/product1.jpg" alt="Lorem ipsum dolor" class="ads-img" id="product1">
-                                <button class="product-img__btn-add">add to cart</button>
-                                <h3 class="heading">Suspendisse id volutpat</h3>
-                                <p><del>$99.00</del> $<span class="price">84.00</span> </p>
-                            </div>
-                            <div class="star">
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star checked"></span>
-                                <span class="fa-regular fa-star"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-item" >
-                        <div class="product-img" data-id="2">
-                            <div class="item-2">
+                    <!-- <div class="product-item" >
+                        <div class="product-img" id="productItem-2" data-id="2">
+                            <div class="item">
+                                <span class="id-prd">productID-2</span>
                                 <img src="./assets/img/product2.jpg" alt="Lorem ipsum dolor" class="ads-img" id="product2">
                                 <button class="product-img__btn-add">add to cart</button>
                                 <h3 class="heading">Lorem ipsum dolor</h3>
@@ -286,11 +191,12 @@
     
                     </div>
                     <div class="product-item" >
-                            <div class="product-img" data-id="3">
-                                <div class="item-3">
+                            <div class="product-img" id="productItem-3" data-id="3">
+                                <div class="item">
+                                    <span class="id-prd">productID-3</span>
                                     <img src="./assets/img/product3.jpg" alt="Proin sed nulla mi" class="ads-img" id="product3">
                                     <button class="product-img__btn-add">add to cart</button>
-                                    <h3 class="heading">Proin sed nulla mit</h3>
+                                    <h3 class="heading">Proin sed nulla mi</h3>
                                     <p> $<span class="price">84.00</span> </p>
                                 </div>
                                 <div class="star">
@@ -304,11 +210,12 @@
             
                     </div>
                     <div class="product-item" >
-                        <div class="product-img" data-id="4">
-                            <div class="item-4">
+                        <div class="product-img" id="productItem-4" data-id="4">
+                            <div class="item">
+                                <span class="id-prd">productID-4</span>
                                 <img src="./assets/img/product4.jpg" alt="Aenean placerat" class="ads-img" id="product4">
                                 <button class="product-img__btn-add">add to cart</button>
-                                <h3 class="heading">Aenean plaicerat</h3>
+                                <h3 class="heading">Aenean placerat</h3>
                                 <p><del>$99.00</del> $<span class="price">84.00</span></p>
                             </div>
                             <div class="star">
@@ -322,11 +229,12 @@
             
                     </div>
                     <div class="product-item" >
-                        <div class="product-img" data-id="5">
-                            <div class="item-5">
+                        <div class="product-img" id="productItem-5" data-id="5">
+                            <div class="item">
+                                <span class="id-prd">productID-5</span>
                                 <img src="./assets/img/product5.jpg" alt="Supendisse id volutpat" class="ads-img" id="product5">
                                 <button class="product-img__btn-add">add to cart</button>
-                                <h3 class="heading">Suspendisse id volupa</h3>
+                                <h3 class="heading">Suspendisse id volupat</h3>
                                 <p><del>$99.00</del> $<span class="price">84.00</span></p>
                             </div>
                             <div class="star">
@@ -339,11 +247,12 @@
                         </div>
                     </div>
                     <div class="product-item" >
-                        <div class="product-img" data-id="6">
-                            <div class="item-6">
+                        <div class="product-img" id="productItem-6" data-id="6">
+                            <div class="item">
+                                <span class="id-prd">productID-6</span>
                                 <img src="./assets/img/product6.jpg" alt="Lorem ipsum dolor" class="ads-img" id="product6">
                                 <button class="product-img__btn-add">add to cart</button>
-                                <h3 class="heading">Lorem iprum dolor</h3>
+                                <h3 class="heading">Lorem isprum dolor</h3>
                                 <p><del>$99.00</del> $<span class="price">84.00</span></p>
                             </div>
                             <div class="star">
@@ -356,8 +265,9 @@
                         </div>
                     </div>
                     <div class="product-item" >
-                        <div class="product-img" data-id="7">
-                            <div class="item-7">
+                        <div class="product-img" id="productItem-7" data-id="7">
+                            <div class="item">
+                                <span class="id-prd">productID-7</span>
                                 <img src="./assets/img/product7.jpg" alt="Proin sed nulla mi" class="ads-img" id="product7">
                                 <button class="product-img__btn-add">add to cart</button>
                                 <h3 class="heading">Proin sed nulla mi</h3>
@@ -373,8 +283,9 @@
                         </div>
                     </div>
                     <div class="product-item" >
-                        <div class="product-img" data-id="8">
-                            <div class="item-8">
+                        <div class="product-img" id="productItem-8" data-id="8">
+                            <div class="item">
+                                <span class="id-prd">productID-8</span>
                                 <img src="./assets/img/product8.jpg" alt="Aenean placerat" class="ads-img" id="product8">
                                 <button class="product-img__btn-add">add to cart</button>
                                 <h3 class="heading">Aenean placerat</h3>
@@ -389,7 +300,7 @@
                             </div>
                         </div>
             
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -470,9 +381,7 @@
                             </div>
                         </div>
                     </div>
-                
-
-                
+            
                     <div class="slider__post-items swiper-slide">
                         <a href="#" ><img src="./assets/img/post1.jpg" alt="post1" class="post-img"></a>
                         <div class="date">
@@ -614,11 +523,12 @@
                     </div>
                 </div>
             </div>
-                <div class="slider__slider-change swiper-pagination">
-                        <span class="dot" ></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                </div>
+            
+            <div class="slider__slider-change swiper-pagination">
+                    <span class="dot" ></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+            </div>
             
         </section>
        <!-- footer -->
@@ -836,6 +746,8 @@
         </div>
     </div>
     <!-- <script src="login.js"></script> -->
-    <script src="add_to_cart.js"></script>
+    <!-- <script src="add_to_cart.js"></script> -->
+    <script src="./product.js"></script>
+    <script src="./cart.js"></script>
 </body>
 </html>
