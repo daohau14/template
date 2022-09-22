@@ -725,6 +725,7 @@ html{
     cursor: pointer;
 }
 .heading{
+    color: #000;
     font-size: 14px;
     font-weight: bold;
     margin: 15px 0 10px 0;

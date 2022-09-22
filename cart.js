@@ -11,9 +11,9 @@ function renderProducts() {
         <div class="product-item">
             <div class="product-img">
                 <div class="item">
-                    <img src="${product.imgSrc}" alt="${product.name}" class="ads-img">
+                    <a href="#"><img src="${product.imgSrc}" alt="${product.name}" class="ads-img"></a>
                     <button class="product-img__btn-add" onclick = "addToCart(${product.id})">add to cart</button>
-                    <h3 class="heading">${product.name}</h3>
+                    <a href="#"><h3 class="heading">${product.name}</h3></a>
                     <p><del>$99.00</del> $<span class="price">${product.price.toFixed(2)}</span> </p> 
                 </div>
                 <div class="star">
