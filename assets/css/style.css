@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 html{
     font-family: Montserrat;
 }
@@ -341,7 +344,7 @@ html{
     border-radius: 2px;
     z-index: 1;
     box-shadow: 0 1px 3.25rem rgb(0 0 0 / 20%);
-    display: none;
+    /* display: none; */
     cursor: default;
 
 }
@@ -537,8 +540,8 @@ html{
     margin-right: 7%;
     cursor: pointer;
 }
-.remove-item :hover {
-    background-color: red;
+.remove-item:hover {
+    color: red;
 }
 /* header-end */
 
